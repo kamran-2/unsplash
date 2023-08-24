@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/8eb76f4a3c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <!-- <script src="https://kit.fontawesome.com/8eb76f4a3c.js" crossorigin="anonymous"></script> -->
+  <title>Unsplash</title>
+  <link rel="icon" id="favicon" type="image/x-icon" href="fevicon.png">
+</head>
+
+<body>
+  <div id="dailog_box1" class="dailog_box1">
+    <div class="dailog">
+      <div class="dailog1">Visual Search</div>
+      <div class="dailog2">Need help?</div>
+    </div>
+    <div class="dailog_box2">
+      <div class="dailog_img"><img src="https://unsplash.com/a/img/visual-search/dropbox-empty-illustration/1x.png" alt="img"></div>
+      <div class="dailog_statements">Drag and drop your image here</div>
+      <div class="dailog_statements1"><b id="browse">Browse</b> to choose a file</div>
+      <div id="or">or</div>
+      <div class="dailog_input"><div class="inset"><i id="insert_link" class="material-icons">insert_link</i></div><input type="text" id="dailog_input" placeholder="Paste an image or a URL "></div>
+    </div>
+    <div class="or1">Or try one of the examples below</div>
+    <div class="dailog_pic">
+      <div class="dailog_pic1"><img src="https://images.unsplash.com/photo-1566487097168-e91a4f38bee2?dpr=1&auto=format&fit=crop&w=82&h=56&q=60" alt="img"></div>
+      <div class="dailog_pic1"><img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?dpr=1&auto=format&fit=crop&w=82&h=56&q=60" alt="img"></div>
+      <div class="dailog_pic1"><img src="https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?dpr=1&auto=format&fit=crop&w=82&h=56&q=60" alt="img"></div>
+      <div class="dailog_pic1"><img src="https://images.unsplash.com/photo-1502096472573-eaac515392c6?dpr=1&auto=format&fit=crop&w=82&h=56&q=60" alt="img"></div>
+    </div>
+  </div>
+  <div class="mainhead">
+    <div class="header">
+      <div class="icon"><img src="logo.png" alt=""></div>
+      <div class="search">
+        <div class="i"><i class="fas fa-search"></i></div>
+        <div class="input"><input type="text" id="search" placeholder="Search free high-resolution photos"></div>
+        <button id="button" onclick="hide_bar()"><i id="center_focus_strong" class="material-icons">center_focus_strong</i></button>
+       
+      </div>
+      <div class="homebar">
+        <div class="bar1"><a href="#">Explore</a></div>
+        <div class="bar1"><a href="#">Advertise</a></div>
+        <div class="bar1"><a href="#">Blog</a></div>
+      </div>
+      <div class="homebar1">
+        <div class="bar2"><a href="#">Log in</a></div>
+        <div class="bar2"><button>Submit a photo</button></div>
+      </div>
+      <div id="bar3"><a href="#">
+        <i class="fas fa-bars"></i></a></div>
+    </div>
+    <div class="header2">
+      <div class="editorial"><a href="#">Editorial</a></div>
+      <div class="options">
+        <div class="option1">Feature</div>
+        <div class="option2"><a href="#">Blockchain</a></div>
+      </div>
+      <div class="scroll"><i class="material-icons" id="arrow-left">arrow_back_ios</i></div>
+      <div class="scroll1"><i class="material-icons" id="arrow-forward">arrow_forward_ios</i></div>
+      <div class="header3">
+        <div class="overflow"><a href="#">Wallpapers</a></div>
+        <div class="overflow"><a href="#">3D Renders</a></div>
+        <div class="overflow"><a href="#">Textures & Patterns</a></div>
+        <div class="overflow"><a href="#">Architecture</a></div>
+        <div class="overflow"><a href="#">Experimental</a></div>
+        <div class="overflow"><a href="#">Nature</a></div>
+        <div class="overflow"><a href="#">Business & Work</a></div>
+        <div class="overflow"><a href="#">Fashion</a></div>
+        <div class="overflow"><a href="#">Film</a></div>
+        <div class="overflow"><a href="#">Food & Drink</a></div>
+        <div class="overflow"><a href="#">Health & Wellness</a></div>
+        <div class="overflow"><a href="#">Current Events</a></div>
+        <div class="overflow"><a href="#">People</a></div>
+        <div class="overflow"><a href="#">Interiors</a></div>
+        <div class="overflow"><a href="#">Street Photography</a></div>
+        <div class="overflow"><a href="#">Travel</a></div>
+        <div class="overflow"><a href="#">Animals</a></div>
+        <div class="overflow"><a href="#">Spirituality</a></div>
+        <div class="overflow"><a href="#">Art & culture</a></div>
+        <div class="overflow"><a href="#">History</a></div>
+        <div class="overflow"><a href="#">Athletics</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="main1">
+      <div class="main2"><img src="Unsplash.png" alt="img"></div>
+      <div class="main3">
+        <h3>The internet's source of <u>freely-usable images.</u></h3>
+        <h3>Powered by creators everywhere.</h3>
+      </div>
+      <div class="mainsearch">
+        <div class="mainsearchimg"><i class="fas fa-search"></i></div>
+        <div class="input"><input type="text" placeholder="Search free high-resolution photos"></div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="photo1">
+      <div class="img1">
+        <div class="hoverr">
+          <div class="hover_element1">
+            <a href="#"><i class="material-icons" id="add-icon">favorite</i></a>
+          </div>
+          <div class="hover_element2">
+            <a href="#"><i class="material-icons" id="add-icon1">add</i></a>
+          </div>
+          <div class="hover_element3">
+            <a href="#"><i class="material-icons" id="add-icon2">south</i></a>
+          </div>
+          <div class="hover_element4">colliboration with</div>
+          <div class="hover_element5">
+            <img
+              src="https://images.unsplash.com/profile-1609545740442-928866556c38image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+              alt="img" id="logo_img">
+            <h3 id="mailchimp">Mailchimp</h3>
+          </div>
+        </div>
+      </div>
+      <div class="img1_2">
+        <div class="hoverr_img1_2">
+          <div class="hover_element1">
+            <a href="#"><i class="material-icons" id="add-icon">favorite</i></a>
+          </div>
+          <div class="hover_element2">
+            <a href="#"><i class="material-icons" id="add-icon1">add</i></a>
+          </div>
+          <div class="hover_element3">
+            <a href="#"><i class="material-icons" id="add-icon2">south</i></a>
+          </div>
+          <div class="hover_element5">
+            <img
+              src="https://images.unsplash.com/profile-1617697724866-fa0b5ef02355image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+              alt="img" id="logo_img">
+            <div class="hover_name">
+              <div class="hovername1">
+                <h4 id="font">Himiway Bikes</h4><i class="material-icons" id="check">check_circle</i>
+              </div>
+              <div class="hovername1">
+                <h4 id="font1">Available for hire</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="photo1">
+      <div class="img2">
+        <div class="hoverr2">
+          <div class="hover_element1">
+            <a href="#"><i class="material-icons" id="add-icon">favorite</i></a>
+          </div>
+          <div class="hover_element2">
+            <a href="#"><i class="material-icons" id="add-icon1">add</i></a>
+          </div>
+          <div class="hover_element3">
+            <a href="#"><i class="material-icons" id="add-icon2">south</i></a>
+          </div>
+          <div class="hover_element5">
+            <img
+              src="https://images.unsplash.com/profile-1643402938271-ad375c43c336image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+              alt="img" id="logo_img">
+            <div class="hover_name">
+              <div class="hovername1">
+                <h4 id="font">Luis Diego Aguiler</h4><i class="material-icons" id="check">check_circle</i>
+              </div>
+              <div class="hovername1">
+                <h4 id="font1">Available for hire</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img1_1">
+        <div class="hoverr_img1_1">
+          <div class="hover_element1">
+            <a href="#"><i class="material-icons" id="add-icon">favorite</i></a>
+          </div>
+          <div class="hover_element2">
+            <a href="#"><i class="material-icons" id="add-icon1">add</i></a>
+          </div>
+          <div class="hover_element3">
+            <a href="#"><i class="material-icons" id="add-icon2">south</i></a>
+          </div>
+          <div class="hover_element5">
+            <img
+              src="https://images.unsplash.com/profile-1619809393043-551ade2f028dimage?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+              alt="img" id="logo_img">
+            <div class="hover_name">
+              <div class="hovername1">
+                <h4 id="img1_1_font">Bakd&Raw by Karolin Baitinger</h4><i class="material-icons"
+                  id="check">check_circle</i>
+              </div>
+              <div class="hovername1">
+                <h4 id="font1">Available for hire</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="photo1">
+      <div class="img3">
+        <div class="hoverr3">
+          <div class="hover_element1">
+            <a href="#"><i class="material-icons" id="add-icon">favorite</i></a>
+          </div>
+          <div class="hover_element2">
+            <a href="#"><i class="material-icons" id="add-icon1">add</i></a>
+          </div>
+          <div class="hover_element3">
+            <a href="#"><i class="material-icons" id="add-icon2">south</i></a>
+          </div>
+          <div class="hover_element5">
+            <img
+              src="https://images.unsplash.com/profile-1600973478653-5a5a4b604ac3image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+              alt="img" id="logo_img">
+            <div class="hover_name">
+              <div class="hovername1">
+                <h4 id="font">Woody Kelly</h4>
+              </div>
+              <div class="hovername1">
+                <h4 id="font1">Available for hire</h4><i class="material-icons" id="check">check_circle</i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img3_1">
+        <div class="hoverr_img3_1">
+          <div class="hover_element1">
+            <a href="#"><i class="material-icons" id="add-icon">favorite</i></a>
+          </div>
+          <div class="hover_element2">
+            <a href="#"><i class="material-icons" id="add-icon1">add</i></a>
+          </div>
+          <div class="hover_element3">
+            <a href="#"><i class="material-icons" id="add-icon2">south</i></a>
+          </div>
+          <div class="hover_element5">
+            <img
+              src="https://images.unsplash.com/profile-1642357600717-347f456d0bacimage?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+              alt="img" id="logo_img">
+            <div class="hover_name">
+              <div class="hovername1">
+                <h4 id="font">Documerica</h4>
+              </div>
+              <div class="hovername1">
+                <h4 id="font1">Available for hire</h4><i class="material-icons" id="check">check_circle</i>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="Unplash.js"></script>
+</body>
+</html>
